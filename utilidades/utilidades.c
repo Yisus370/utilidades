@@ -72,6 +72,63 @@ void esperarINTRO (void)
 }
 
 
+////////////////////////////////////////////////////////////////////////////////
+//
+//  FUNCIÓN:
+//
+//    void descartarEntrada (void)
+//
+//  USO:
+//
+//    Breve descripción de cómo se usa o para qué sirve.
+//
+//  DETALLES:
+//
+//    Consideraciones respecto al uso, datos manejados, o situaciones concretas,
+//    que se pueden detallar sobre el programa, tanto para uso por terceros como
+//    para cualquiera que tenga acceso al código.
+//
+//  PARÁMETROS DE ENTRADA:
+//
+//    param1
+//
+//      Variable del tipo que se indique, que corresponde a la información 1.
+//      Incorporar aquí aquellos detalles sobre posibles valores especiales.
+//
+//    param2
+//
+//      Variable del tipo que se indique, que corresponde a la información 2.
+//      Incorporar aquí aquellos detalles sobre posibles valores especiales.
+//
+//    NO RECIBE VALORES DE ENTRADA.
+//
+//      Especificar el texto anterior si la función no recibe valores de otros
+//      programas. Datos obtenidos del usuario se especificarán en los detalles.
+//
+//  VALOR DE SALIDA:
+//
+//    Devuelve al programa donde se invoque, un valor del tipo que se indique
+//    que representará algún concepto concreto a describir.
+//
+//    NO GENERA NINGÚN VALOR DE SALIDA.
+//
+//      Especificar el texto anterior si la función no calcula ningún valor para
+//      trasladarla a otros programas que la invoquen. Posibles datos generados
+//      por pantalla se especificarán en los detalles.
+//
+//  FUNCIONES DE LAS QUE DEPENDE:
+//
+//    programa1()
+//
+//      Indicamos vinculación a este programa.
+//
+//    programa2()
+//
+//      Indicamos vinculación a este programa.
+//
+////////////////////////////////////////////////////////////////////////////////
+
+
 void descartarEntrada (void)
 {
   vaciarBuffer();
@@ -127,12 +184,122 @@ void vaciarBuffer (void)
   // while (getchar() != '\n')   ; // Bucle vacío
 }
 
+////////////////////////////////////////////////////////////////////////////////
+//
+//  FUNCIÓN:
+//
+//    int nombreFuncion (int param1, char param2)
+//
+//  USO:
+//
+//    Breve descripción de cómo se usa o para qué sirve.
+//
+//  DETALLES:
+//
+//    Consideraciones respecto al uso, datos manejados, o situaciones concretas,
+//    que se pueden detallar sobre el programa, tanto para uso por terceros como
+//    para cualquiera que tenga acceso al código.
+//
+//  PARÁMETROS DE ENTRADA:
+//
+//    param1
+//
+//      Variable del tipo que se indique, que corresponde a la información 1.
+//      Incorporar aquí aquellos detalles sobre posibles valores especiales.
+//
+//    param2
+//
+//      Variable del tipo que se indique, que corresponde a la información 2.
+//      Incorporar aquí aquellos detalles sobre posibles valores especiales.
+//
+//    NO RECIBE VALORES DE ENTRADA.
+//
+//      Especificar el texto anterior si la función no recibe valores de otros
+//      programas. Datos obtenidos del usuario se especificarán en los detalles.
+//
+//  VALOR DE SALIDA:
+//
+//    Devuelve al programa donde se invoque, un valor del tipo que se indique
+//    que representará algún concepto concreto a describir.
+//
+//    NO GENERA NINGÚN VALOR DE SALIDA.
+//
+//      Especificar el texto anterior si la función no calcula ningún valor para
+//      trasladarla a otros programas que la invoquen. Posibles datos generados
+//      por pantalla se especificarán en los detalles.
+//
+//  FUNCIONES DE LAS QUE DEPENDE:
+//
+//    programa1()
+//
+//      Indicamos vinculación a este programa.
+//
+//    programa2()
+//
+//      Indicamos vinculación a este programa.
+//
+////////////////////////////////////////////////////////////////////////////////
 
 void borrarPantalla (void)
 {
   limpiarPantalla();
 }
 
+////////////////////////////////////////////////////////////////////////////////
+//
+//  FUNCIÓN:
+//
+//    int nombreFuncion (int param1, char param2)
+//
+//  USO:
+//
+//    Breve descripción de cómo se usa o para qué sirve.
+//
+//  DETALLES:
+//
+//    Consideraciones respecto al uso, datos manejados, o situaciones concretas,
+//    que se pueden detallar sobre el programa, tanto para uso por terceros como
+//    para cualquiera que tenga acceso al código.
+//
+//  PARÁMETROS DE ENTRADA:
+//
+//    param1
+//
+//      Variable del tipo que se indique, que corresponde a la información 1.
+//      Incorporar aquí aquellos detalles sobre posibles valores especiales.
+//
+//    param2
+//
+//      Variable del tipo que se indique, que corresponde a la información 2.
+//      Incorporar aquí aquellos detalles sobre posibles valores especiales.
+//
+//    NO RECIBE VALORES DE ENTRADA.
+//
+//      Especificar el texto anterior si la función no recibe valores de otros
+//      programas. Datos obtenidos del usuario se especificarán en los detalles.
+//
+//  VALOR DE SALIDA:
+//
+//    Devuelve al programa donde se invoque, un valor del tipo que se indique
+//    que representará algún concepto concreto a describir.
+//
+//    NO GENERA NINGÚN VALOR DE SALIDA.
+//
+//      Especificar el texto anterior si la función no calcula ningún valor para
+//      trasladarla a otros programas que la invoquen. Posibles datos generados
+//      por pantalla se especificarán en los detalles.
+//
+//  FUNCIONES DE LAS QUE DEPENDE:
+//
+//    programa1()
+//
+//      Indicamos vinculación a este programa.
+//
+//    programa2()
+//
+//      Indicamos vinculación a este programa.
+//
+////////////////////////////////////////////////////////////////////////////////
 
 void limpiarPantalla (void)
 {
@@ -188,36 +355,366 @@ void bajar (int nlineas)
   }
 }
 
+////////////////////////////////////////////////////////////////////////////////
+//
+//  FUNCIÓN:
+//
+//    int nombreFuncion (int param1, char param2)
+//
+//  USO:
+//
+//    Breve descripción de cómo se usa o para qué sirve.
+//
+//  DETALLES:
+//
+//    Consideraciones respecto al uso, datos manejados, o situaciones concretas,
+//    que se pueden detallar sobre el programa, tanto para uso por terceros como
+//    para cualquiera que tenga acceso al código.
+//
+//  PARÁMETROS DE ENTRADA:
+//
+//    param1
+//
+//      Variable del tipo que se indique, que corresponde a la información 1.
+//      Incorporar aquí aquellos detalles sobre posibles valores especiales.
+//
+//    param2
+//
+//      Variable del tipo que se indique, que corresponde a la información 2.
+//      Incorporar aquí aquellos detalles sobre posibles valores especiales.
+//
+//    NO RECIBE VALORES DE ENTRADA.
+//
+//      Especificar el texto anterior si la función no recibe valores de otros
+//      programas. Datos obtenidos del usuario se especificarán en los detalles.
+//
+//  VALOR DE SALIDA:
+//
+//    Devuelve al programa donde se invoque, un valor del tipo que se indique
+//    que representará algún concepto concreto a describir.
+//
+//    NO GENERA NINGÚN VALOR DE SALIDA.
+//
+//      Especificar el texto anterior si la función no calcula ningún valor para
+//      trasladarla a otros programas que la invoquen. Posibles datos generados
+//      por pantalla se especificarán en los detalles.
+//
+//  FUNCIONES DE LAS QUE DEPENDE:
+//
+//    programa1()
+//
+//      Indicamos vinculación a este programa.
+//
+//    programa2()
+//
+//      Indicamos vinculación a este programa.
+//
+////////////////////////////////////////////////////////////////////////////////
 
 void abajo (int nfils)
 {
   bajar(nfils);
 }
 
+////////////////////////////////////////////////////////////////////////////////
+//
+//  FUNCIÓN:
+//
+//    int nombreFuncion (int param1, char param2)
+//
+//  USO:
+//
+//    Breve descripción de cómo se usa o para qué sirve.
+//
+//  DETALLES:
+//
+//    Consideraciones respecto al uso, datos manejados, o situaciones concretas,
+//    que se pueden detallar sobre el programa, tanto para uso por terceros como
+//    para cualquiera que tenga acceso al código.
+//
+//  PARÁMETROS DE ENTRADA:
+//
+//    param1
+//
+//      Variable del tipo que se indique, que corresponde a la información 1.
+//      Incorporar aquí aquellos detalles sobre posibles valores especiales.
+//
+//    param2
+//
+//      Variable del tipo que se indique, que corresponde a la información 2.
+//      Incorporar aquí aquellos detalles sobre posibles valores especiales.
+//
+//    NO RECIBE VALORES DE ENTRADA.
+//
+//      Especificar el texto anterior si la función no recibe valores de otros
+//      programas. Datos obtenidos del usuario se especificarán en los detalles.
+//
+//  VALOR DE SALIDA:
+//
+//    Devuelve al programa donde se invoque, un valor del tipo que se indique
+//    que representará algún concepto concreto a describir.
+//
+//    NO GENERA NINGÚN VALOR DE SALIDA.
+//
+//      Especificar el texto anterior si la función no calcula ningún valor para
+//      trasladarla a otros programas que la invoquen. Posibles datos generados
+//      por pantalla se especificarán en los detalles.
+//
+//  FUNCIONES DE LAS QUE DEPENDE:
+//
+//    programa1()
+//
+//      Indicamos vinculación a este programa.
+//
+//    programa2()
+//
+//      Indicamos vinculación a este programa.
+//
+////////////////////////////////////////////////////////////////////////////////
 
 void saltar (int nfils)
 {
   bajar(nfils);
 }
 
+////////////////////////////////////////////////////////////////////////////////
+//
+//  FUNCIÓN:
+//
+//    int nombreFuncion (int param1, char param2)
+//
+//  USO:
+//
+//    Breve descripción de cómo se usa o para qué sirve.
+//
+//  DETALLES:
+//
+//    Consideraciones respecto al uso, datos manejados, o situaciones concretas,
+//    que se pueden detallar sobre el programa, tanto para uso por terceros como
+//    para cualquiera que tenga acceso al código.
+//
+//  PARÁMETROS DE ENTRADA:
+//
+//    param1
+//
+//      Variable del tipo que se indique, que corresponde a la información 1.
+//      Incorporar aquí aquellos detalles sobre posibles valores especiales.
+//
+//    param2
+//
+//      Variable del tipo que se indique, que corresponde a la información 2.
+//      Incorporar aquí aquellos detalles sobre posibles valores especiales.
+//
+//    NO RECIBE VALORES DE ENTRADA.
+//
+//      Especificar el texto anterior si la función no recibe valores de otros
+//      programas. Datos obtenidos del usuario se especificarán en los detalles.
+//
+//  VALOR DE SALIDA:
+//
+//    Devuelve al programa donde se invoque, un valor del tipo que se indique
+//    que representará algún concepto concreto a describir.
+//
+//    NO GENERA NINGÚN VALOR DE SALIDA.
+//
+//      Especificar el texto anterior si la función no calcula ningún valor para
+//      trasladarla a otros programas que la invoquen. Posibles datos generados
+//      por pantalla se especificarán en los detalles.
+//
+//  FUNCIONES DE LAS QUE DEPENDE:
+//
+//    programa1()
+//
+//      Indicamos vinculación a este programa.
+//
+//    programa2()
+//
+//      Indicamos vinculación a este programa.
+//
+////////////////////////////////////////////////////////////////////////////////
 
 void desplazarFils (int nfils)
 {
   bajar(nfils);
 }
 
+////////////////////////////////////////////////////////////////////////////////
+//
+//  FUNCIÓN:
+//
+//    int nombreFuncion (int param1, char param2)
+//
+//  USO:
+//
+//    Breve descripción de cómo se usa o para qué sirve.
+//
+//  DETALLES:
+//
+//    Consideraciones respecto al uso, datos manejados, o situaciones concretas,
+//    que se pueden detallar sobre el programa, tanto para uso por terceros como
+//    para cualquiera que tenga acceso al código.
+//
+//  PARÁMETROS DE ENTRADA:
+//
+//    param1
+//
+//      Variable del tipo que se indique, que corresponde a la información 1.
+//      Incorporar aquí aquellos detalles sobre posibles valores especiales.
+//
+//    param2
+//
+//      Variable del tipo que se indique, que corresponde a la información 2.
+//      Incorporar aquí aquellos detalles sobre posibles valores especiales.
+//
+//    NO RECIBE VALORES DE ENTRADA.
+//
+//      Especificar el texto anterior si la función no recibe valores de otros
+//      programas. Datos obtenidos del usuario se especificarán en los detalles.
+//
+//  VALOR DE SALIDA:
+//
+//    Devuelve al programa donde se invoque, un valor del tipo que se indique
+//    que representará algún concepto concreto a describir.
+//
+//    NO GENERA NINGÚN VALOR DE SALIDA.
+//
+//      Especificar el texto anterior si la función no calcula ningún valor para
+//      trasladarla a otros programas que la invoquen. Posibles datos generados
+//      por pantalla se especificarán en los detalles.
+//
+//  FUNCIONES DE LAS QUE DEPENDE:
+//
+//    programa1()
+//
+//      Indicamos vinculación a este programa.
+//
+//    programa2()
+//
+//      Indicamos vinculación a este programa.
+//
+////////////////////////////////////////////////////////////////////////////////
 
 void desplazarV (int nfils)
 {
   bajar(nfils);
 }
 
+////////////////////////////////////////////////////////////////////////////////
+//
+//  FUNCIÓN:
+//
+//    int nombreFuncion (int param1, char param2)
+//
+//  USO:
+//
+//    Breve descripción de cómo se usa o para qué sirve.
+//
+//  DETALLES:
+//
+//    Consideraciones respecto al uso, datos manejados, o situaciones concretas,
+//    que se pueden detallar sobre el programa, tanto para uso por terceros como
+//    para cualquiera que tenga acceso al código.
+//
+//  PARÁMETROS DE ENTRADA:
+//
+//    param1
+//
+//      Variable del tipo que se indique, que corresponde a la información 1.
+//      Incorporar aquí aquellos detalles sobre posibles valores especiales.
+//
+//    param2
+//
+//      Variable del tipo que se indique, que corresponde a la información 2.
+//      Incorporar aquí aquellos detalles sobre posibles valores especiales.
+//
+//    NO RECIBE VALORES DE ENTRADA.
+//
+//      Especificar el texto anterior si la función no recibe valores de otros
+//      programas. Datos obtenidos del usuario se especificarán en los detalles.
+//
+//  VALOR DE SALIDA:
+//
+//    Devuelve al programa donde se invoque, un valor del tipo que se indique
+//    que representará algún concepto concreto a describir.
+//
+//    NO GENERA NINGÚN VALOR DE SALIDA.
+//
+//      Especificar el texto anterior si la función no calcula ningún valor para
+//      trasladarla a otros programas que la invoquen. Posibles datos generados
+//      por pantalla se especificarán en los detalles.
+//
+//  FUNCIONES DE LAS QUE DEPENDE:
+//
+//    programa1()
+//
+//      Indicamos vinculación a este programa.
+//
+//    programa2()
+//
+//      Indicamos vinculación a este programa.
+//
+////////////////////////////////////////////////////////////////////////////////
 
 void desplazarY (int nfils)
 {
   bajar(nfils);
 }
 
+////////////////////////////////////////////////////////////////////////////////
+//
+//  FUNCIÓN:
+//
+//    int nombreFuncion (int param1, char param2)
+//
+//  USO:
+//
+//    Breve descripción de cómo se usa o para qué sirve.
+//
+//  DETALLES:
+//
+//    Consideraciones respecto al uso, datos manejados, o situaciones concretas,
+//    que se pueden detallar sobre el programa, tanto para uso por terceros como
+//    para cualquiera que tenga acceso al código.
+//
+//  PARÁMETROS DE ENTRADA:
+//
+//    param1
+//
+//      Variable del tipo que se indique, que corresponde a la información 1.
+//      Incorporar aquí aquellos detalles sobre posibles valores especiales.
+//
+//    param2
+//
+//      Variable del tipo que se indique, que corresponde a la información 2.
+//      Incorporar aquí aquellos detalles sobre posibles valores especiales.
+//
+//    NO RECIBE VALORES DE ENTRADA.
+//
+//      Especificar el texto anterior si la función no recibe valores de otros
+//      programas. Datos obtenidos del usuario se especificarán en los detalles.
+//
+//  VALOR DE SALIDA:
+//
+//    Devuelve al programa donde se invoque, un valor del tipo que se indique
+//    que representará algún concepto concreto a describir.
+//
+//    NO GENERA NINGÚN VALOR DE SALIDA.
+//
+//      Especificar el texto anterior si la función no calcula ningún valor para
+//      trasladarla a otros programas que la invoquen. Posibles datos generados
+//      por pantalla se especificarán en los detalles.
+//
+//  FUNCIONES DE LAS QUE DEPENDE:
+//
+//    programa1()
+//
+//      Indicamos vinculación a este programa.
+//
+//    programa2()
+//
+//      Indicamos vinculación a este programa.
+//
+////////////////////////////////////////////////////////////////////////////////
 
 void indentar (int ncolumnas)
 {
@@ -227,36 +724,366 @@ void indentar (int ncolumnas)
   }
 }
 
+////////////////////////////////////////////////////////////////////////////////
+//
+//  FUNCIÓN:
+//
+//    int nombreFuncion (int param1, char param2)
+//
+//  USO:
+//
+//    Breve descripción de cómo se usa o para qué sirve.
+//
+//  DETALLES:
+//
+//    Consideraciones respecto al uso, datos manejados, o situaciones concretas,
+//    que se pueden detallar sobre el programa, tanto para uso por terceros como
+//    para cualquiera que tenga acceso al código.
+//
+//  PARÁMETROS DE ENTRADA:
+//
+//    param1
+//
+//      Variable del tipo que se indique, que corresponde a la información 1.
+//      Incorporar aquí aquellos detalles sobre posibles valores especiales.
+//
+//    param2
+//
+//      Variable del tipo que se indique, que corresponde a la información 2.
+//      Incorporar aquí aquellos detalles sobre posibles valores especiales.
+//
+//    NO RECIBE VALORES DE ENTRADA.
+//
+//      Especificar el texto anterior si la función no recibe valores de otros
+//      programas. Datos obtenidos del usuario se especificarán en los detalles.
+//
+//  VALOR DE SALIDA:
+//
+//    Devuelve al programa donde se invoque, un valor del tipo que se indique
+//    que representará algún concepto concreto a describir.
+//
+//    NO GENERA NINGÚN VALOR DE SALIDA.
+//
+//      Especificar el texto anterior si la función no calcula ningún valor para
+//      trasladarla a otros programas que la invoquen. Posibles datos generados
+//      por pantalla se especificarán en los detalles.
+//
+//  FUNCIONES DE LAS QUE DEPENDE:
+//
+//    programa1()
+//
+//      Indicamos vinculación a este programa.
+//
+//    programa2()
+//
+//      Indicamos vinculación a este programa.
+//
+////////////////////////////////////////////////////////////////////////////////
 
 void derecha (int ncols)
 {
   indentar(ncols);
 }
 
+////////////////////////////////////////////////////////////////////////////////
+//
+//  FUNCIÓN:
+//
+//    int nombreFuncion (int param1, char param2)
+//
+//  USO:
+//
+//    Breve descripción de cómo se usa o para qué sirve.
+//
+//  DETALLES:
+//
+//    Consideraciones respecto al uso, datos manejados, o situaciones concretas,
+//    que se pueden detallar sobre el programa, tanto para uso por terceros como
+//    para cualquiera que tenga acceso al código.
+//
+//  PARÁMETROS DE ENTRADA:
+//
+//    param1
+//
+//      Variable del tipo que se indique, que corresponde a la información 1.
+//      Incorporar aquí aquellos detalles sobre posibles valores especiales.
+//
+//    param2
+//
+//      Variable del tipo que se indique, que corresponde a la información 2.
+//      Incorporar aquí aquellos detalles sobre posibles valores especiales.
+//
+//    NO RECIBE VALORES DE ENTRADA.
+//
+//      Especificar el texto anterior si la función no recibe valores de otros
+//      programas. Datos obtenidos del usuario se especificarán en los detalles.
+//
+//  VALOR DE SALIDA:
+//
+//    Devuelve al programa donde se invoque, un valor del tipo que se indique
+//    que representará algún concepto concreto a describir.
+//
+//    NO GENERA NINGÚN VALOR DE SALIDA.
+//
+//      Especificar el texto anterior si la función no calcula ningún valor para
+//      trasladarla a otros programas que la invoquen. Posibles datos generados
+//      por pantalla se especificarán en los detalles.
+//
+//  FUNCIONES DE LAS QUE DEPENDE:
+//
+//    programa1()
+//
+//      Indicamos vinculación a este programa.
+//
+//    programa2()
+//
+//      Indicamos vinculación a este programa.
+//
+////////////////////////////////////////////////////////////////////////////////
 
 void tabular (int ncols)
 {
   indentar(ncols);
 }
 
+////////////////////////////////////////////////////////////////////////////////
+//
+//  FUNCIÓN:
+//
+//    int nombreFuncion (int param1, char param2)
+//
+//  USO:
+//
+//    Breve descripción de cómo se usa o para qué sirve.
+//
+//  DETALLES:
+//
+//    Consideraciones respecto al uso, datos manejados, o situaciones concretas,
+//    que se pueden detallar sobre el programa, tanto para uso por terceros como
+//    para cualquiera que tenga acceso al código.
+//
+//  PARÁMETROS DE ENTRADA:
+//
+//    param1
+//
+//      Variable del tipo que se indique, que corresponde a la información 1.
+//      Incorporar aquí aquellos detalles sobre posibles valores especiales.
+//
+//    param2
+//
+//      Variable del tipo que se indique, que corresponde a la información 2.
+//      Incorporar aquí aquellos detalles sobre posibles valores especiales.
+//
+//    NO RECIBE VALORES DE ENTRADA.
+//
+//      Especificar el texto anterior si la función no recibe valores de otros
+//      programas. Datos obtenidos del usuario se especificarán en los detalles.
+//
+//  VALOR DE SALIDA:
+//
+//    Devuelve al programa donde se invoque, un valor del tipo que se indique
+//    que representará algún concepto concreto a describir.
+//
+//    NO GENERA NINGÚN VALOR DE SALIDA.
+//
+//      Especificar el texto anterior si la función no calcula ningún valor para
+//      trasladarla a otros programas que la invoquen. Posibles datos generados
+//      por pantalla se especificarán en los detalles.
+//
+//  FUNCIONES DE LAS QUE DEPENDE:
+//
+//    programa1()
+//
+//      Indicamos vinculación a este programa.
+//
+//    programa2()
+//
+//      Indicamos vinculación a este programa.
+//
+////////////////////////////////////////////////////////////////////////////////
 
 void desplazarCols (int ncols)
 {
   indentar(ncols);
 }
 
+////////////////////////////////////////////////////////////////////////////////
+//
+//  FUNCIÓN:
+//
+//    int nombreFuncion (int param1, char param2)
+//
+//  USO:
+//
+//    Breve descripción de cómo se usa o para qué sirve.
+//
+//  DETALLES:
+//
+//    Consideraciones respecto al uso, datos manejados, o situaciones concretas,
+//    que se pueden detallar sobre el programa, tanto para uso por terceros como
+//    para cualquiera que tenga acceso al código.
+//
+//  PARÁMETROS DE ENTRADA:
+//
+//    param1
+//
+//      Variable del tipo que se indique, que corresponde a la información 1.
+//      Incorporar aquí aquellos detalles sobre posibles valores especiales.
+//
+//    param2
+//
+//      Variable del tipo que se indique, que corresponde a la información 2.
+//      Incorporar aquí aquellos detalles sobre posibles valores especiales.
+//
+//    NO RECIBE VALORES DE ENTRADA.
+//
+//      Especificar el texto anterior si la función no recibe valores de otros
+//      programas. Datos obtenidos del usuario se especificarán en los detalles.
+//
+//  VALOR DE SALIDA:
+//
+//    Devuelve al programa donde se invoque, un valor del tipo que se indique
+//    que representará algún concepto concreto a describir.
+//
+//    NO GENERA NINGÚN VALOR DE SALIDA.
+//
+//      Especificar el texto anterior si la función no calcula ningún valor para
+//      trasladarla a otros programas que la invoquen. Posibles datos generados
+//      por pantalla se especificarán en los detalles.
+//
+//  FUNCIONES DE LAS QUE DEPENDE:
+//
+//    programa1()
+//
+//      Indicamos vinculación a este programa.
+//
+//    programa2()
+//
+//      Indicamos vinculación a este programa.
+//
+////////////////////////////////////////////////////////////////////////////////
 
 void desplazarX (int ncols)
 {
   indentar(ncols);
 }
 
+////////////////////////////////////////////////////////////////////////////////
+//
+//  FUNCIÓN:
+//
+//    int nombreFuncion (int param1, char param2)
+//
+//  USO:
+//
+//    Breve descripción de cómo se usa o para qué sirve.
+//
+//  DETALLES:
+//
+//    Consideraciones respecto al uso, datos manejados, o situaciones concretas,
+//    que se pueden detallar sobre el programa, tanto para uso por terceros como
+//    para cualquiera que tenga acceso al código.
+//
+//  PARÁMETROS DE ENTRADA:
+//
+//    param1
+//
+//      Variable del tipo que se indique, que corresponde a la información 1.
+//      Incorporar aquí aquellos detalles sobre posibles valores especiales.
+//
+//    param2
+//
+//      Variable del tipo que se indique, que corresponde a la información 2.
+//      Incorporar aquí aquellos detalles sobre posibles valores especiales.
+//
+//    NO RECIBE VALORES DE ENTRADA.
+//
+//      Especificar el texto anterior si la función no recibe valores de otros
+//      programas. Datos obtenidos del usuario se especificarán en los detalles.
+//
+//  VALOR DE SALIDA:
+//
+//    Devuelve al programa donde se invoque, un valor del tipo que se indique
+//    que representará algún concepto concreto a describir.
+//
+//    NO GENERA NINGÚN VALOR DE SALIDA.
+//
+//      Especificar el texto anterior si la función no calcula ningún valor para
+//      trasladarla a otros programas que la invoquen. Posibles datos generados
+//      por pantalla se especificarán en los detalles.
+//
+//  FUNCIONES DE LAS QUE DEPENDE:
+//
+//    programa1()
+//
+//      Indicamos vinculación a este programa.
+//
+//    programa2()
+//
+//      Indicamos vinculación a este programa.
+//
+////////////////////////////////////////////////////////////////////////////////
 
 void desplazarH (int ncols)
 {
   indentar(ncols);
 }
 
+////////////////////////////////////////////////////////////////////////////////
+//
+//  FUNCIÓN:
+//
+//    int nombreFuncion (int param1, char param2)
+//
+//  USO:
+//
+//    Breve descripción de cómo se usa o para qué sirve.
+//
+//  DETALLES:
+//
+//    Consideraciones respecto al uso, datos manejados, o situaciones concretas,
+//    que se pueden detallar sobre el programa, tanto para uso por terceros como
+//    para cualquiera que tenga acceso al código.
+//
+//  PARÁMETROS DE ENTRADA:
+//
+//    param1
+//
+//      Variable del tipo que se indique, que corresponde a la información 1.
+//      Incorporar aquí aquellos detalles sobre posibles valores especiales.
+//
+//    param2
+//
+//      Variable del tipo que se indique, que corresponde a la información 2.
+//      Incorporar aquí aquellos detalles sobre posibles valores especiales.
+//
+//    NO RECIBE VALORES DE ENTRADA.
+//
+//      Especificar el texto anterior si la función no recibe valores de otros
+//      programas. Datos obtenidos del usuario se especificarán en los detalles.
+//
+//  VALOR DE SALIDA:
+//
+//    Devuelve al programa donde se invoque, un valor del tipo que se indique
+//    que representará algún concepto concreto a describir.
+//
+//    NO GENERA NINGÚN VALOR DE SALIDA.
+//
+//      Especificar el texto anterior si la función no calcula ningún valor para
+//      trasladarla a otros programas que la invoquen. Posibles datos generados
+//      por pantalla se especificarán en los detalles.
+//
+//  FUNCIONES DE LAS QUE DEPENDE:
+//
+//    programa1()
+//
+//      Indicamos vinculación a este programa.
+//
+//    programa2()
+//
+//      Indicamos vinculación a este programa.
+//
+////////////////////////////////////////////////////////////////////////////////
 
 void posicionar (int nfils, int ncols)
 {
@@ -264,18 +1091,183 @@ void posicionar (int nfils, int ncols)
   tabular(ncols);
 }
 
+////////////////////////////////////////////////////////////////////////////////
+//
+//  FUNCIÓN:
+//
+//    int nombreFuncion (int param1, char param2)
+//
+//  USO:
+//
+//    Breve descripción de cómo se usa o para qué sirve.
+//
+//  DETALLES:
+//
+//    Consideraciones respecto al uso, datos manejados, o situaciones concretas,
+//    que se pueden detallar sobre el programa, tanto para uso por terceros como
+//    para cualquiera que tenga acceso al código.
+//
+//  PARÁMETROS DE ENTRADA:
+//
+//    param1
+//
+//      Variable del tipo que se indique, que corresponde a la información 1.
+//      Incorporar aquí aquellos detalles sobre posibles valores especiales.
+//
+//    param2
+//
+//      Variable del tipo que se indique, que corresponde a la información 2.
+//      Incorporar aquí aquellos detalles sobre posibles valores especiales.
+//
+//    NO RECIBE VALORES DE ENTRADA.
+//
+//      Especificar el texto anterior si la función no recibe valores de otros
+//      programas. Datos obtenidos del usuario se especificarán en los detalles.
+//
+//  VALOR DE SALIDA:
+//
+//    Devuelve al programa donde se invoque, un valor del tipo que se indique
+//    que representará algún concepto concreto a describir.
+//
+//    NO GENERA NINGÚN VALOR DE SALIDA.
+//
+//      Especificar el texto anterior si la función no calcula ningún valor para
+//      trasladarla a otros programas que la invoquen. Posibles datos generados
+//      por pantalla se especificarán en los detalles.
+//
+//  FUNCIONES DE LAS QUE DEPENDE:
+//
+//    programa1()
+//
+//      Indicamos vinculación a este programa.
+//
+//    programa2()
+//
+//      Indicamos vinculación a este programa.
+//
+////////////////////////////////////////////////////////////////////////////////
 
 void desplazar (int nfils, int ncols)
 {
   posicionar(nfils, ncols);
 }
 
+////////////////////////////////////////////////////////////////////////////////
+//
+//  FUNCIÓN:
+//
+//    int nombreFuncion (int param1, char param2)
+//
+//  USO:
+//
+//    Breve descripción de cómo se usa o para qué sirve.
+//
+//  DETALLES:
+//
+//    Consideraciones respecto al uso, datos manejados, o situaciones concretas,
+//    que se pueden detallar sobre el programa, tanto para uso por terceros como
+//    para cualquiera que tenga acceso al código.
+//
+//  PARÁMETROS DE ENTRADA:
+//
+//    param1
+//
+//      Variable del tipo que se indique, que corresponde a la información 1.
+//      Incorporar aquí aquellos detalles sobre posibles valores especiales.
+//
+//    param2
+//
+//      Variable del tipo que se indique, que corresponde a la información 2.
+//      Incorporar aquí aquellos detalles sobre posibles valores especiales.
+//
+//    NO RECIBE VALORES DE ENTRADA.
+//
+//      Especificar el texto anterior si la función no recibe valores de otros
+//      programas. Datos obtenidos del usuario se especificarán en los detalles.
+//
+//  VALOR DE SALIDA:
+//
+//    Devuelve al programa donde se invoque, un valor del tipo que se indique
+//    que representará algún concepto concreto a describir.
+//
+//    NO GENERA NINGÚN VALOR DE SALIDA.
+//
+//      Especificar el texto anterior si la función no calcula ningún valor para
+//      trasladarla a otros programas que la invoquen. Posibles datos generados
+//      por pantalla se especificarán en los detalles.
+//
+//  FUNCIONES DE LAS QUE DEPENDE:
+//
+//    programa1()
+//
+//      Indicamos vinculación a este programa.
+//
+//    programa2()
+//
+//      Indicamos vinculación a este programa.
+//
+////////////////////////////////////////////////////////////////////////////////
 
 void desplazarXY (int nfils, int ncols)
 {
   posicionar(nfils, ncols);
 }
 
+////////////////////////////////////////////////////////////////////////////////
+//
+//  FUNCIÓN:
+//
+//    int nombreFuncion (int param1, char param2)
+//
+//  USO:
+//
+//    Breve descripción de cómo se usa o para qué sirve.
+//
+//  DETALLES:
+//
+//    Consideraciones respecto al uso, datos manejados, o situaciones concretas,
+//    que se pueden detallar sobre el programa, tanto para uso por terceros como
+//    para cualquiera que tenga acceso al código.
+//
+//  PARÁMETROS DE ENTRADA:
+//
+//    param1
+//
+//      Variable del tipo que se indique, que corresponde a la información 1.
+//      Incorporar aquí aquellos detalles sobre posibles valores especiales.
+//
+//    param2
+//
+//      Variable del tipo que se indique, que corresponde a la información 2.
+//      Incorporar aquí aquellos detalles sobre posibles valores especiales.
+//
+//    NO RECIBE VALORES DE ENTRADA.
+//
+//      Especificar el texto anterior si la función no recibe valores de otros
+//      programas. Datos obtenidos del usuario se especificarán en los detalles.
+//
+//  VALOR DE SALIDA:
+//
+//    Devuelve al programa donde se invoque, un valor del tipo que se indique
+//    que representará algún concepto concreto a describir.
+//
+//    NO GENERA NINGÚN VALOR DE SALIDA.
+//
+//      Especificar el texto anterior si la función no calcula ningún valor para
+//      trasladarla a otros programas que la invoquen. Posibles datos generados
+//      por pantalla se especificarán en los detalles.
+//
+//  FUNCIONES DE LAS QUE DEPENDE:
+//
+//    programa1()
+//
+//      Indicamos vinculación a este programa.
+//
+//    programa2()
+//
+//      Indicamos vinculación a este programa.
+//
+////////////////////////////////////////////////////////////////////////////////
 
 void retardoSegundos (int segundosmax)
 {
@@ -291,6 +1283,61 @@ void retardoSegundos (int segundosmax)
   }
 }
 
+////////////////////////////////////////////////////////////////////////////////
+//
+//  FUNCIÓN:
+//
+//    int nombreFuncion (int param1, char param2)
+//
+//  USO:
+//
+//    Breve descripción de cómo se usa o para qué sirve.
+//
+//  DETALLES:
+//
+//    Consideraciones respecto al uso, datos manejados, o situaciones concretas,
+//    que se pueden detallar sobre el programa, tanto para uso por terceros como
+//    para cualquiera que tenga acceso al código.
+//
+//  PARÁMETROS DE ENTRADA:
+//
+//    param1
+//
+//      Variable del tipo que se indique, que corresponde a la información 1.
+//      Incorporar aquí aquellos detalles sobre posibles valores especiales.
+//
+//    param2
+//
+//      Variable del tipo que se indique, que corresponde a la información 2.
+//      Incorporar aquí aquellos detalles sobre posibles valores especiales.
+//
+//    NO RECIBE VALORES DE ENTRADA.
+//
+//      Especificar el texto anterior si la función no recibe valores de otros
+//      programas. Datos obtenidos del usuario se especificarán en los detalles.
+//
+//  VALOR DE SALIDA:
+//
+//    Devuelve al programa donde se invoque, un valor del tipo que se indique
+//    que representará algún concepto concreto a describir.
+//
+//    NO GENERA NINGÚN VALOR DE SALIDA.
+//
+//      Especificar el texto anterior si la función no calcula ningún valor para
+//      trasladarla a otros programas que la invoquen. Posibles datos generados
+//      por pantalla se especificarán en los detalles.
+//
+//  FUNCIONES DE LAS QUE DEPENDE:
+//
+//    programa1()
+//
+//      Indicamos vinculación a este programa.
+//
+//    programa2()
+//
+//      Indicamos vinculación a este programa.
+//
+////////////////////////////////////////////////////////////////////////////////
 
 void retardoMilisegundos (int milisegundosmax)
 {
@@ -303,6 +1350,61 @@ void retardoMilisegundos (int milisegundosmax)
       for (j=0; j<1000; j++)   ;
 }
 
+////////////////////////////////////////////////////////////////////////////////
+//
+//  FUNCIÓN:
+//
+//    int nombreFuncion (int param1, char param2)
+//
+//  USO:
+//
+//    Breve descripción de cómo se usa o para qué sirve.
+//
+//  DETALLES:
+//
+//    Consideraciones respecto al uso, datos manejados, o situaciones concretas,
+//    que se pueden detallar sobre el programa, tanto para uso por terceros como
+//    para cualquiera que tenga acceso al código.
+//
+//  PARÁMETROS DE ENTRADA:
+//
+//    param1
+//
+//      Variable del tipo que se indique, que corresponde a la información 1.
+//      Incorporar aquí aquellos detalles sobre posibles valores especiales.
+//
+//    param2
+//
+//      Variable del tipo que se indique, que corresponde a la información 2.
+//      Incorporar aquí aquellos detalles sobre posibles valores especiales.
+//
+//    NO RECIBE VALORES DE ENTRADA.
+//
+//      Especificar el texto anterior si la función no recibe valores de otros
+//      programas. Datos obtenidos del usuario se especificarán en los detalles.
+//
+//  VALOR DE SALIDA:
+//
+//    Devuelve al programa donde se invoque, un valor del tipo que se indique
+//    que representará algún concepto concreto a describir.
+//
+//    NO GENERA NINGÚN VALOR DE SALIDA.
+//
+//      Especificar el texto anterior si la función no calcula ningún valor para
+//      trasladarla a otros programas que la invoquen. Posibles datos generados
+//      por pantalla se especificarán en los detalles.
+//
+//  FUNCIONES DE LAS QUE DEPENDE:
+//
+//    programa1()
+//
+//      Indicamos vinculación a este programa.
+//
+//    programa2()
+//
+//      Indicamos vinculación a este programa.
+//
+////////////////////////////////////////////////////////////////////////////////
 
 void retrasoMilisegundos (int milisegundos)
 {
@@ -318,6 +1420,61 @@ void retrasoMilisegundos (int milisegundos)
   } while (e<milisegundos);
 }
 
+////////////////////////////////////////////////////////////////////////////////
+//
+//  FUNCIÓN:
+//
+//    int nombreFuncion (int param1, char param2)
+//
+//  USO:
+//
+//    Breve descripción de cómo se usa o para qué sirve.
+//
+//  DETALLES:
+//
+//    Consideraciones respecto al uso, datos manejados, o situaciones concretas,
+//    que se pueden detallar sobre el programa, tanto para uso por terceros como
+//    para cualquiera que tenga acceso al código.
+//
+//  PARÁMETROS DE ENTRADA:
+//
+//    param1
+//
+//      Variable del tipo que se indique, que corresponde a la información 1.
+//      Incorporar aquí aquellos detalles sobre posibles valores especiales.
+//
+//    param2
+//
+//      Variable del tipo que se indique, que corresponde a la información 2.
+//      Incorporar aquí aquellos detalles sobre posibles valores especiales.
+//
+//    NO RECIBE VALORES DE ENTRADA.
+//
+//      Especificar el texto anterior si la función no recibe valores de otros
+//      programas. Datos obtenidos del usuario se especificarán en los detalles.
+//
+//  VALOR DE SALIDA:
+//
+//    Devuelve al programa donde se invoque, un valor del tipo que se indique
+//    que representará algún concepto concreto a describir.
+//
+//    NO GENERA NINGÚN VALOR DE SALIDA.
+//
+//      Especificar el texto anterior si la función no calcula ningún valor para
+//      trasladarla a otros programas que la invoquen. Posibles datos generados
+//      por pantalla se especificarán en los detalles.
+//
+//  FUNCIONES DE LAS QUE DEPENDE:
+//
+//    programa1()
+//
+//      Indicamos vinculación a este programa.
+//
+//    programa2()
+//
+//      Indicamos vinculación a este programa.
+//
+////////////////////////////////////////////////////////////////////////////////
 
 void esperarSegundos (int segundos)
 {
@@ -328,6 +1485,61 @@ void esperarSegundos (int segundos)
   #endif
 }
 
+////////////////////////////////////////////////////////////////////////////////
+//
+//  FUNCIÓN:
+//
+//    int nombreFuncion (int param1, char param2)
+//
+//  USO:
+//
+//    Breve descripción de cómo se usa o para qué sirve.
+//
+//  DETALLES:
+//
+//    Consideraciones respecto al uso, datos manejados, o situaciones concretas,
+//    que se pueden detallar sobre el programa, tanto para uso por terceros como
+//    para cualquiera que tenga acceso al código.
+//
+//  PARÁMETROS DE ENTRADA:
+//
+//    param1
+//
+//      Variable del tipo que se indique, que corresponde a la información 1.
+//      Incorporar aquí aquellos detalles sobre posibles valores especiales.
+//
+//    param2
+//
+//      Variable del tipo que se indique, que corresponde a la información 2.
+//      Incorporar aquí aquellos detalles sobre posibles valores especiales.
+//
+//    NO RECIBE VALORES DE ENTRADA.
+//
+//      Especificar el texto anterior si la función no recibe valores de otros
+//      programas. Datos obtenidos del usuario se especificarán en los detalles.
+//
+//  VALOR DE SALIDA:
+//
+//    Devuelve al programa donde se invoque, un valor del tipo que se indique
+//    que representará algún concepto concreto a describir.
+//
+//    NO GENERA NINGÚN VALOR DE SALIDA.
+//
+//      Especificar el texto anterior si la función no calcula ningún valor para
+//      trasladarla a otros programas que la invoquen. Posibles datos generados
+//      por pantalla se especificarán en los detalles.
+//
+//  FUNCIONES DE LAS QUE DEPENDE:
+//
+//    programa1()
+//
+//      Indicamos vinculación a este programa.
+//
+//    programa2()
+//
+//      Indicamos vinculación a este programa.
+//
+////////////////////////////////////////////////////////////////////////////////
 
 void esperarMilisegundos (int milisegundos)
 {
@@ -338,18 +1550,183 @@ void esperarMilisegundos (int milisegundos)
   #endif
 }
 
+////////////////////////////////////////////////////////////////////////////////
+//
+//  FUNCIÓN:
+//
+//    int nombreFuncion (int param1, char param2)
+//
+//  USO:
+//
+//    Breve descripción de cómo se usa o para qué sirve.
+//
+//  DETALLES:
+//
+//    Consideraciones respecto al uso, datos manejados, o situaciones concretas,
+//    que se pueden detallar sobre el programa, tanto para uso por terceros como
+//    para cualquiera que tenga acceso al código.
+//
+//  PARÁMETROS DE ENTRADA:
+//
+//    param1
+//
+//      Variable del tipo que se indique, que corresponde a la información 1.
+//      Incorporar aquí aquellos detalles sobre posibles valores especiales.
+//
+//    param2
+//
+//      Variable del tipo que se indique, que corresponde a la información 2.
+//      Incorporar aquí aquellos detalles sobre posibles valores especiales.
+//
+//    NO RECIBE VALORES DE ENTRADA.
+//
+//      Especificar el texto anterior si la función no recibe valores de otros
+//      programas. Datos obtenidos del usuario se especificarán en los detalles.
+//
+//  VALOR DE SALIDA:
+//
+//    Devuelve al programa donde se invoque, un valor del tipo que se indique
+//    que representará algún concepto concreto a describir.
+//
+//    NO GENERA NINGÚN VALOR DE SALIDA.
+//
+//      Especificar el texto anterior si la función no calcula ningún valor para
+//      trasladarla a otros programas que la invoquen. Posibles datos generados
+//      por pantalla se especificarán en los detalles.
+//
+//  FUNCIONES DE LAS QUE DEPENDE:
+//
+//    programa1()
+//
+//      Indicamos vinculación a este programa.
+//
+//    programa2()
+//
+//      Indicamos vinculación a este programa.
+//
+////////////////////////////////////////////////////////////////////////////////
 
 void pausa (void)
 {
   pausaEstandar(1, 2);
 }
 
+////////////////////////////////////////////////////////////////////////////////
+//
+//  FUNCIÓN:
+//
+//    int nombreFuncion (int param1, char param2)
+//
+//  USO:
+//
+//    Breve descripción de cómo se usa o para qué sirve.
+//
+//  DETALLES:
+//
+//    Consideraciones respecto al uso, datos manejados, o situaciones concretas,
+//    que se pueden detallar sobre el programa, tanto para uso por terceros como
+//    para cualquiera que tenga acceso al código.
+//
+//  PARÁMETROS DE ENTRADA:
+//
+//    param1
+//
+//      Variable del tipo que se indique, que corresponde a la información 1.
+//      Incorporar aquí aquellos detalles sobre posibles valores especiales.
+//
+//    param2
+//
+//      Variable del tipo que se indique, que corresponde a la información 2.
+//      Incorporar aquí aquellos detalles sobre posibles valores especiales.
+//
+//    NO RECIBE VALORES DE ENTRADA.
+//
+//      Especificar el texto anterior si la función no recibe valores de otros
+//      programas. Datos obtenidos del usuario se especificarán en los detalles.
+//
+//  VALOR DE SALIDA:
+//
+//    Devuelve al programa donde se invoque, un valor del tipo que se indique
+//    que representará algún concepto concreto a describir.
+//
+//    NO GENERA NINGÚN VALOR DE SALIDA.
+//
+//      Especificar el texto anterior si la función no calcula ningún valor para
+//      trasladarla a otros programas que la invoquen. Posibles datos generados
+//      por pantalla se especificarán en los detalles.
+//
+//  FUNCIONES DE LAS QUE DEPENDE:
+//
+//    programa1()
+//
+//      Indicamos vinculación a este programa.
+//
+//    programa2()
+//
+//      Indicamos vinculación a este programa.
+//
+////////////////////////////////////////////////////////////////////////////////
 
 void pausaEstandar (int nfils, int ncols)
 {
   pausaGenerica(MSJxPAUSA, nfils, ncols, FALSE);
 }
 
+////////////////////////////////////////////////////////////////////////////////
+//
+//  FUNCIÓN:
+//
+//    int nombreFuncion (int param1, char param2)
+//
+//  USO:
+//
+//    Breve descripción de cómo se usa o para qué sirve.
+//
+//  DETALLES:
+//
+//    Consideraciones respecto al uso, datos manejados, o situaciones concretas,
+//    que se pueden detallar sobre el programa, tanto para uso por terceros como
+//    para cualquiera que tenga acceso al código.
+//
+//  PARÁMETROS DE ENTRADA:
+//
+//    param1
+//
+//      Variable del tipo que se indique, que corresponde a la información 1.
+//      Incorporar aquí aquellos detalles sobre posibles valores especiales.
+//
+//    param2
+//
+//      Variable del tipo que se indique, que corresponde a la información 2.
+//      Incorporar aquí aquellos detalles sobre posibles valores especiales.
+//
+//    NO RECIBE VALORES DE ENTRADA.
+//
+//      Especificar el texto anterior si la función no recibe valores de otros
+//      programas. Datos obtenidos del usuario se especificarán en los detalles.
+//
+//  VALOR DE SALIDA:
+//
+//    Devuelve al programa donde se invoque, un valor del tipo que se indique
+//    que representará algún concepto concreto a describir.
+//
+//    NO GENERA NINGÚN VALOR DE SALIDA.
+//
+//      Especificar el texto anterior si la función no calcula ningún valor para
+//      trasladarla a otros programas que la invoquen. Posibles datos generados
+//      por pantalla se especificarán en los detalles.
+//
+//  FUNCIONES DE LAS QUE DEPENDE:
+//
+//    programa1()
+//
+//      Indicamos vinculación a este programa.
+//
+//    programa2()
+//
+//      Indicamos vinculación a este programa.
+//
+////////////////////////////////////////////////////////////////////////////////
 
 void pausaGenerica (char msjtxt[], int nfils, int ncols, boolean nuevalinea)
 {
@@ -358,66 +1735,671 @@ void pausaGenerica (char msjtxt[], int nfils, int ncols, boolean nuevalinea)
   esperarINTRO();
 }
 
+////////////////////////////////////////////////////////////////////////////////
+//
+//  FUNCIÓN:
+//
+//    int nombreFuncion (int param1, char param2)
+//
+//  USO:
+//
+//    Breve descripción de cómo se usa o para qué sirve.
+//
+//  DETALLES:
+//
+//    Consideraciones respecto al uso, datos manejados, o situaciones concretas,
+//    que se pueden detallar sobre el programa, tanto para uso por terceros como
+//    para cualquiera que tenga acceso al código.
+//
+//  PARÁMETROS DE ENTRADA:
+//
+//    param1
+//
+//      Variable del tipo que se indique, que corresponde a la información 1.
+//      Incorporar aquí aquellos detalles sobre posibles valores especiales.
+//
+//    param2
+//
+//      Variable del tipo que se indique, que corresponde a la información 2.
+//      Incorporar aquí aquellos detalles sobre posibles valores especiales.
+//
+//    NO RECIBE VALORES DE ENTRADA.
+//
+//      Especificar el texto anterior si la función no recibe valores de otros
+//      programas. Datos obtenidos del usuario se especificarán en los detalles.
+//
+//  VALOR DE SALIDA:
+//
+//    Devuelve al programa donde se invoque, un valor del tipo que se indique
+//    que representará algún concepto concreto a describir.
+//
+//    NO GENERA NINGÚN VALOR DE SALIDA.
+//
+//      Especificar el texto anterior si la función no calcula ningún valor para
+//      trasladarla a otros programas que la invoquen. Posibles datos generados
+//      por pantalla se especificarán en los detalles.
+//
+//  FUNCIONES DE LAS QUE DEPENDE:
+//
+//    programa1()
+//
+//      Indicamos vinculación a este programa.
+//
+//    programa2()
+//
+//      Indicamos vinculación a este programa.
+//
+////////////////////////////////////////////////////////////////////////////////
 
 void texto (char msjtxt[])
 {
   puts(msjtxt);
 }
 
+////////////////////////////////////////////////////////////////////////////////
+//
+//  FUNCIÓN:
+//
+//    int nombreFuncion (int param1, char param2)
+//
+//  USO:
+//
+//    Breve descripción de cómo se usa o para qué sirve.
+//
+//  DETALLES:
+//
+//    Consideraciones respecto al uso, datos manejados, o situaciones concretas,
+//    que se pueden detallar sobre el programa, tanto para uso por terceros como
+//    para cualquiera que tenga acceso al código.
+//
+//  PARÁMETROS DE ENTRADA:
+//
+//    param1
+//
+//      Variable del tipo que se indique, que corresponde a la información 1.
+//      Incorporar aquí aquellos detalles sobre posibles valores especiales.
+//
+//    param2
+//
+//      Variable del tipo que se indique, que corresponde a la información 2.
+//      Incorporar aquí aquellos detalles sobre posibles valores especiales.
+//
+//    NO RECIBE VALORES DE ENTRADA.
+//
+//      Especificar el texto anterior si la función no recibe valores de otros
+//      programas. Datos obtenidos del usuario se especificarán en los detalles.
+//
+//  VALOR DE SALIDA:
+//
+//    Devuelve al programa donde se invoque, un valor del tipo que se indique
+//    que representará algún concepto concreto a describir.
+//
+//    NO GENERA NINGÚN VALOR DE SALIDA.
+//
+//      Especificar el texto anterior si la función no calcula ningún valor para
+//      trasladarla a otros programas que la invoquen. Posibles datos generados
+//      por pantalla se especificarán en los detalles.
+//
+//  FUNCIONES DE LAS QUE DEPENDE:
+//
+//    programa1()
+//
+//      Indicamos vinculación a este programa.
+//
+//    programa2()
+//
+//      Indicamos vinculación a este programa.
+//
+////////////////////////////////////////////////////////////////////////////////
 
 void separar()
 {
   mostrar("\n");
 }
 
+////////////////////////////////////////////////////////////////////////////////
+//
+//  FUNCIÓN:
+//
+//    int nombreFuncion (int param1, char param2)
+//
+//  USO:
+//
+//    Breve descripción de cómo se usa o para qué sirve.
+//
+//  DETALLES:
+//
+//    Consideraciones respecto al uso, datos manejados, o situaciones concretas,
+//    que se pueden detallar sobre el programa, tanto para uso por terceros como
+//    para cualquiera que tenga acceso al código.
+//
+//  PARÁMETROS DE ENTRADA:
+//
+//    param1
+//
+//      Variable del tipo que se indique, que corresponde a la información 1.
+//      Incorporar aquí aquellos detalles sobre posibles valores especiales.
+//
+//    param2
+//
+//      Variable del tipo que se indique, que corresponde a la información 2.
+//      Incorporar aquí aquellos detalles sobre posibles valores especiales.
+//
+//    NO RECIBE VALORES DE ENTRADA.
+//
+//      Especificar el texto anterior si la función no recibe valores de otros
+//      programas. Datos obtenidos del usuario se especificarán en los detalles.
+//
+//  VALOR DE SALIDA:
+//
+//    Devuelve al programa donde se invoque, un valor del tipo que se indique
+//    que representará algún concepto concreto a describir.
+//
+//    NO GENERA NINGÚN VALOR DE SALIDA.
+//
+//      Especificar el texto anterior si la función no calcula ningún valor para
+//      trasladarla a otros programas que la invoquen. Posibles datos generados
+//      por pantalla se especificarán en los detalles.
+//
+//  FUNCIONES DE LAS QUE DEPENDE:
+//
+//    programa1()
+//
+//      Indicamos vinculación a este programa.
+//
+//    programa2()
+//
+//      Indicamos vinculación a este programa.
+//
+////////////////////////////////////////////////////////////////////////////////
 
 void nuevaLinea (void)
 {
   saltar(1);
 }
 
+////////////////////////////////////////////////////////////////////////////////
+//
+//  FUNCIÓN:
+//
+//    int nombreFuncion (int param1, char param2)
+//
+//  USO:
+//
+//    Breve descripción de cómo se usa o para qué sirve.
+//
+//  DETALLES:
+//
+//    Consideraciones respecto al uso, datos manejados, o situaciones concretas,
+//    que se pueden detallar sobre el programa, tanto para uso por terceros como
+//    para cualquiera que tenga acceso al código.
+//
+//  PARÁMETROS DE ENTRADA:
+//
+//    param1
+//
+//      Variable del tipo que se indique, que corresponde a la información 1.
+//      Incorporar aquí aquellos detalles sobre posibles valores especiales.
+//
+//    param2
+//
+//      Variable del tipo que se indique, que corresponde a la información 2.
+//      Incorporar aquí aquellos detalles sobre posibles valores especiales.
+//
+//    NO RECIBE VALORES DE ENTRADA.
+//
+//      Especificar el texto anterior si la función no recibe valores de otros
+//      programas. Datos obtenidos del usuario se especificarán en los detalles.
+//
+//  VALOR DE SALIDA:
+//
+//    Devuelve al programa donde se invoque, un valor del tipo que se indique
+//    que representará algún concepto concreto a describir.
+//
+//    NO GENERA NINGÚN VALOR DE SALIDA.
+//
+//      Especificar el texto anterior si la función no calcula ningún valor para
+//      trasladarla a otros programas que la invoquen. Posibles datos generados
+//      por pantalla se especificarán en los detalles.
+//
+//  FUNCIONES DE LAS QUE DEPENDE:
+//
+//    programa1()
+//
+//      Indicamos vinculación a este programa.
+//
+//    programa2()
+//
+//      Indicamos vinculación a este programa.
+//
+////////////////////////////////////////////////////////////////////////////////
 
 void mostrar (char msjtxt[])
 {
   mostrar_x_y (msjtxt, 0, 0);
 }
 
+////////////////////////////////////////////////////////////////////////////////
+//
+//  FUNCIÓN:
+//
+//    int nombreFuncion (int param1, char param2)
+//
+//  USO:
+//
+//    Breve descripción de cómo se usa o para qué sirve.
+//
+//  DETALLES:
+//
+//    Consideraciones respecto al uso, datos manejados, o situaciones concretas,
+//    que se pueden detallar sobre el programa, tanto para uso por terceros como
+//    para cualquiera que tenga acceso al código.
+//
+//  PARÁMETROS DE ENTRADA:
+//
+//    param1
+//
+//      Variable del tipo que se indique, que corresponde a la información 1.
+//      Incorporar aquí aquellos detalles sobre posibles valores especiales.
+//
+//    param2
+//
+//      Variable del tipo que se indique, que corresponde a la información 2.
+//      Incorporar aquí aquellos detalles sobre posibles valores especiales.
+//
+//    NO RECIBE VALORES DE ENTRADA.
+//
+//      Especificar el texto anterior si la función no recibe valores de otros
+//      programas. Datos obtenidos del usuario se especificarán en los detalles.
+//
+//  VALOR DE SALIDA:
+//
+//    Devuelve al programa donde se invoque, un valor del tipo que se indique
+//    que representará algún concepto concreto a describir.
+//
+//    NO GENERA NINGÚN VALOR DE SALIDA.
+//
+//      Especificar el texto anterior si la función no calcula ningún valor para
+//      trasladarla a otros programas que la invoquen. Posibles datos generados
+//      por pantalla se especificarán en los detalles.
+//
+//  FUNCIONES DE LAS QUE DEPENDE:
+//
+//    programa1()
+//
+//      Indicamos vinculación a este programa.
+//
+//    programa2()
+//
+//      Indicamos vinculación a este programa.
+//
+////////////////////////////////////////////////////////////////////////////////
 
 void mostrar_x_y (char msjtxt[], int nfils, int ncols)
 {
   mensaje_x_y (msjtxt, nfils, ncols, FALSE);
 }
 
+////////////////////////////////////////////////////////////////////////////////
+//
+//  FUNCIÓN:
+//
+//    int nombreFuncion (int param1, char param2)
+//
+//  USO:
+//
+//    Breve descripción de cómo se usa o para qué sirve.
+//
+//  DETALLES:
+//
+//    Consideraciones respecto al uso, datos manejados, o situaciones concretas,
+//    que se pueden detallar sobre el programa, tanto para uso por terceros como
+//    para cualquiera que tenga acceso al código.
+//
+//  PARÁMETROS DE ENTRADA:
+//
+//    param1
+//
+//      Variable del tipo que se indique, que corresponde a la información 1.
+//      Incorporar aquí aquellos detalles sobre posibles valores especiales.
+//
+//    param2
+//
+//      Variable del tipo que se indique, que corresponde a la información 2.
+//      Incorporar aquí aquellos detalles sobre posibles valores especiales.
+//
+//    NO RECIBE VALORES DE ENTRADA.
+//
+//      Especificar el texto anterior si la función no recibe valores de otros
+//      programas. Datos obtenidos del usuario se especificarán en los detalles.
+//
+//  VALOR DE SALIDA:
+//
+//    Devuelve al programa donde se invoque, un valor del tipo que se indique
+//    que representará algún concepto concreto a describir.
+//
+//    NO GENERA NINGÚN VALOR DE SALIDA.
+//
+//      Especificar el texto anterior si la función no calcula ningún valor para
+//      trasladarla a otros programas que la invoquen. Posibles datos generados
+//      por pantalla se especificarán en los detalles.
+//
+//  FUNCIONES DE LAS QUE DEPENDE:
+//
+//    programa1()
+//
+//      Indicamos vinculación a este programa.
+//
+//    programa2()
+//
+//      Indicamos vinculación a este programa.
+//
+////////////////////////////////////////////////////////////////////////////////
 
 void escribir (char msjtxt[])
 {
   escribir_x_y (msjtxt, 0, 0);
 }
 
+////////////////////////////////////////////////////////////////////////////////
+//
+//  FUNCIÓN:
+//
+//    int nombreFuncion (int param1, char param2)
+//
+//  USO:
+//
+//    Breve descripción de cómo se usa o para qué sirve.
+//
+//  DETALLES:
+//
+//    Consideraciones respecto al uso, datos manejados, o situaciones concretas,
+//    que se pueden detallar sobre el programa, tanto para uso por terceros como
+//    para cualquiera que tenga acceso al código.
+//
+//  PARÁMETROS DE ENTRADA:
+//
+//    param1
+//
+//      Variable del tipo que se indique, que corresponde a la información 1.
+//      Incorporar aquí aquellos detalles sobre posibles valores especiales.
+//
+//    param2
+//
+//      Variable del tipo que se indique, que corresponde a la información 2.
+//      Incorporar aquí aquellos detalles sobre posibles valores especiales.
+//
+//    NO RECIBE VALORES DE ENTRADA.
+//
+//      Especificar el texto anterior si la función no recibe valores de otros
+//      programas. Datos obtenidos del usuario se especificarán en los detalles.
+//
+//  VALOR DE SALIDA:
+//
+//    Devuelve al programa donde se invoque, un valor del tipo que se indique
+//    que representará algún concepto concreto a describir.
+//
+//    NO GENERA NINGÚN VALOR DE SALIDA.
+//
+//      Especificar el texto anterior si la función no calcula ningún valor para
+//      trasladarla a otros programas que la invoquen. Posibles datos generados
+//      por pantalla se especificarán en los detalles.
+//
+//  FUNCIONES DE LAS QUE DEPENDE:
+//
+//    programa1()
+//
+//      Indicamos vinculación a este programa.
+//
+//    programa2()
+//
+//      Indicamos vinculación a este programa.
+//
+////////////////////////////////////////////////////////////////////////////////
 
 void escribir_x_y (char msjtxt[], int nfils, int ncols)
 {
   mensaje_x_y (msjtxt, nfils, ncols, FALSE);
 }
 
+////////////////////////////////////////////////////////////////////////////////
+//
+//  FUNCIÓN:
+//
+//    int nombreFuncion (int param1, char param2)
+//
+//  USO:
+//
+//    Breve descripción de cómo se usa o para qué sirve.
+//
+//  DETALLES:
+//
+//    Consideraciones respecto al uso, datos manejados, o situaciones concretas,
+//    que se pueden detallar sobre el programa, tanto para uso por terceros como
+//    para cualquiera que tenga acceso al código.
+//
+//  PARÁMETROS DE ENTRADA:
+//
+//    param1
+//
+//      Variable del tipo que se indique, que corresponde a la información 1.
+//      Incorporar aquí aquellos detalles sobre posibles valores especiales.
+//
+//    param2
+//
+//      Variable del tipo que se indique, que corresponde a la información 2.
+//      Incorporar aquí aquellos detalles sobre posibles valores especiales.
+//
+//    NO RECIBE VALORES DE ENTRADA.
+//
+//      Especificar el texto anterior si la función no recibe valores de otros
+//      programas. Datos obtenidos del usuario se especificarán en los detalles.
+//
+//  VALOR DE SALIDA:
+//
+//    Devuelve al programa donde se invoque, un valor del tipo que se indique
+//    que representará algún concepto concreto a describir.
+//
+//    NO GENERA NINGÚN VALOR DE SALIDA.
+//
+//      Especificar el texto anterior si la función no calcula ningún valor para
+//      trasladarla a otros programas que la invoquen. Posibles datos generados
+//      por pantalla se especificarán en los detalles.
+//
+//  FUNCIONES DE LAS QUE DEPENDE:
+//
+//    programa1()
+//
+//      Indicamos vinculación a este programa.
+//
+//    programa2()
+//
+//      Indicamos vinculación a este programa.
+//
+////////////////////////////////////////////////////////////////////////////////
 
 void imprimir (char msjtxt[])
 {
   imprimir_x_y (msjtxt, 0, 0);
 }
 
+////////////////////////////////////////////////////////////////////////////////
+//
+//  FUNCIÓN:
+//
+//    int nombreFuncion (int param1, char param2)
+//
+//  USO:
+//
+//    Breve descripción de cómo se usa o para qué sirve.
+//
+//  DETALLES:
+//
+//    Consideraciones respecto al uso, datos manejados, o situaciones concretas,
+//    que se pueden detallar sobre el programa, tanto para uso por terceros como
+//    para cualquiera que tenga acceso al código.
+//
+//  PARÁMETROS DE ENTRADA:
+//
+//    param1
+//
+//      Variable del tipo que se indique, que corresponde a la información 1.
+//      Incorporar aquí aquellos detalles sobre posibles valores especiales.
+//
+//    param2
+//
+//      Variable del tipo que se indique, que corresponde a la información 2.
+//      Incorporar aquí aquellos detalles sobre posibles valores especiales.
+//
+//    NO RECIBE VALORES DE ENTRADA.
+//
+//      Especificar el texto anterior si la función no recibe valores de otros
+//      programas. Datos obtenidos del usuario se especificarán en los detalles.
+//
+//  VALOR DE SALIDA:
+//
+//    Devuelve al programa donde se invoque, un valor del tipo que se indique
+//    que representará algún concepto concreto a describir.
+//
+//    NO GENERA NINGÚN VALOR DE SALIDA.
+//
+//      Especificar el texto anterior si la función no calcula ningún valor para
+//      trasladarla a otros programas que la invoquen. Posibles datos generados
+//      por pantalla se especificarán en los detalles.
+//
+//  FUNCIONES DE LAS QUE DEPENDE:
+//
+//    programa1()
+//
+//      Indicamos vinculación a este programa.
+//
+//    programa2()
+//
+//      Indicamos vinculación a este programa.
+//
+////////////////////////////////////////////////////////////////////////////////
 
 void imprimir_x_y (char msjtxt[], int nfils, int ncols)
 {
   mensaje_x_y (msjtxt, nfils, ncols, FALSE);
 }
 
+////////////////////////////////////////////////////////////////////////////////
+//
+//  FUNCIÓN:
+//
+//    int nombreFuncion (int param1, char param2)
+//
+//  USO:
+//
+//    Breve descripción de cómo se usa o para qué sirve.
+//
+//  DETALLES:
+//
+//    Consideraciones respecto al uso, datos manejados, o situaciones concretas,
+//    que se pueden detallar sobre el programa, tanto para uso por terceros como
+//    para cualquiera que tenga acceso al código.
+//
+//  PARÁMETROS DE ENTRADA:
+//
+//    param1
+//
+//      Variable del tipo que se indique, que corresponde a la información 1.
+//      Incorporar aquí aquellos detalles sobre posibles valores especiales.
+//
+//    param2
+//
+//      Variable del tipo que se indique, que corresponde a la información 2.
+//      Incorporar aquí aquellos detalles sobre posibles valores especiales.
+//
+//    NO RECIBE VALORES DE ENTRADA.
+//
+//      Especificar el texto anterior si la función no recibe valores de otros
+//      programas. Datos obtenidos del usuario se especificarán en los detalles.
+//
+//  VALOR DE SALIDA:
+//
+//    Devuelve al programa donde se invoque, un valor del tipo que se indique
+//    que representará algún concepto concreto a describir.
+//
+//    NO GENERA NINGÚN VALOR DE SALIDA.
+//
+//      Especificar el texto anterior si la función no calcula ningún valor para
+//      trasladarla a otros programas que la invoquen. Posibles datos generados
+//      por pantalla se especificarán en los detalles.
+//
+//  FUNCIONES DE LAS QUE DEPENDE:
+//
+//    programa1()
+//
+//      Indicamos vinculación a este programa.
+//
+//    programa2()
+//
+//      Indicamos vinculación a este programa.
+//
+////////////////////////////////////////////////////////////////////////////////
 
 void mensaje (char msjtxt[], int nfils, int ncols)
 {
   mensaje_x_y (msjtxt, nfils, ncols, FALSE);
 }
 
+////////////////////////////////////////////////////////////////////////////////
+//
+//  FUNCIÓN:
+//
+//    int nombreFuncion (int param1, char param2)
+//
+//  USO:
+//
+//    Breve descripción de cómo se usa o para qué sirve.
+//
+//  DETALLES:
+//
+//    Consideraciones respecto al uso, datos manejados, o situaciones concretas,
+//    que se pueden detallar sobre el programa, tanto para uso por terceros como
+//    para cualquiera que tenga acceso al código.
+//
+//  PARÁMETROS DE ENTRADA:
+//
+//    param1
+//
+//      Variable del tipo que se indique, que corresponde a la información 1.
+//      Incorporar aquí aquellos detalles sobre posibles valores especiales.
+//
+//    param2
+//
+//      Variable del tipo que se indique, que corresponde a la información 2.
+//      Incorporar aquí aquellos detalles sobre posibles valores especiales.
+//
+//    NO RECIBE VALORES DE ENTRADA.
+//
+//      Especificar el texto anterior si la función no recibe valores de otros
+//      programas. Datos obtenidos del usuario se especificarán en los detalles.
+//
+//  VALOR DE SALIDA:
+//
+//    Devuelve al programa donde se invoque, un valor del tipo que se indique
+//    que representará algún concepto concreto a describir.
+//
+//    NO GENERA NINGÚN VALOR DE SALIDA.
+//
+//      Especificar el texto anterior si la función no calcula ningún valor para
+//      trasladarla a otros programas que la invoquen. Posibles datos generados
+//      por pantalla se especificarán en los detalles.
+//
+//  FUNCIONES DE LAS QUE DEPENDE:
+//
+//    programa1()
+//
+//      Indicamos vinculación a este programa.
+//
+//    programa2()
+//
+//      Indicamos vinculación a este programa.
+//
+////////////////////////////////////////////////////////////////////////////////
 
 void mensaje_x_y (char msjtxt[], int nfils, int ncols, boolean nuevalinea)
 {
@@ -428,12 +2410,122 @@ void mensaje_x_y (char msjtxt[], int nfils, int ncols, boolean nuevalinea)
   if (nuevalinea)   printf("\n");   // ALTERNATIVA: if (nuevalinea)   putchar(ENTER);
 }
 
+////////////////////////////////////////////////////////////////////////////////
+//
+//  FUNCIÓN:
+//
+//    int nombreFuncion (int param1, char param2)
+//
+//  USO:
+//
+//    Breve descripción de cómo se usa o para qué sirve.
+//
+//  DETALLES:
+//
+//    Consideraciones respecto al uso, datos manejados, o situaciones concretas,
+//    que se pueden detallar sobre el programa, tanto para uso por terceros como
+//    para cualquiera que tenga acceso al código.
+//
+//  PARÁMETROS DE ENTRADA:
+//
+//    param1
+//
+//      Variable del tipo que se indique, que corresponde a la información 1.
+//      Incorporar aquí aquellos detalles sobre posibles valores especiales.
+//
+//    param2
+//
+//      Variable del tipo que se indique, que corresponde a la información 2.
+//      Incorporar aquí aquellos detalles sobre posibles valores especiales.
+//
+//    NO RECIBE VALORES DE ENTRADA.
+//
+//      Especificar el texto anterior si la función no recibe valores de otros
+//      programas. Datos obtenidos del usuario se especificarán en los detalles.
+//
+//  VALOR DE SALIDA:
+//
+//    Devuelve al programa donde se invoque, un valor del tipo que se indique
+//    que representará algún concepto concreto a describir.
+//
+//    NO GENERA NINGÚN VALOR DE SALIDA.
+//
+//      Especificar el texto anterior si la función no calcula ningún valor para
+//      trasladarla a otros programas que la invoquen. Posibles datos generados
+//      por pantalla se especificarán en los detalles.
+//
+//  FUNCIONES DE LAS QUE DEPENDE:
+//
+//    programa1()
+//
+//      Indicamos vinculación a este programa.
+//
+//    programa2()
+//
+//      Indicamos vinculación a este programa.
+//
+////////////////////////////////////////////////////////////////////////////////
 
 void iniciaAleatorizador (void)
 {
   srand(time(NULL));
 }
 
+////////////////////////////////////////////////////////////////////////////////
+//
+//  FUNCIÓN:
+//
+//    int nombreFuncion (int param1, char param2)
+//
+//  USO:
+//
+//    Breve descripción de cómo se usa o para qué sirve.
+//
+//  DETALLES:
+//
+//    Consideraciones respecto al uso, datos manejados, o situaciones concretas,
+//    que se pueden detallar sobre el programa, tanto para uso por terceros como
+//    para cualquiera que tenga acceso al código.
+//
+//  PARÁMETROS DE ENTRADA:
+//
+//    param1
+//
+//      Variable del tipo que se indique, que corresponde a la información 1.
+//      Incorporar aquí aquellos detalles sobre posibles valores especiales.
+//
+//    param2
+//
+//      Variable del tipo que se indique, que corresponde a la información 2.
+//      Incorporar aquí aquellos detalles sobre posibles valores especiales.
+//
+//    NO RECIBE VALORES DE ENTRADA.
+//
+//      Especificar el texto anterior si la función no recibe valores de otros
+//      programas. Datos obtenidos del usuario se especificarán en los detalles.
+//
+//  VALOR DE SALIDA:
+//
+//    Devuelve al programa donde se invoque, un valor del tipo que se indique
+//    que representará algún concepto concreto a describir.
+//
+//    NO GENERA NINGÚN VALOR DE SALIDA.
+//
+//      Especificar el texto anterior si la función no calcula ningún valor para
+//      trasladarla a otros programas que la invoquen. Posibles datos generados
+//      por pantalla se especificarán en los detalles.
+//
+//  FUNCIONES DE LAS QUE DEPENDE:
+//
+//    programa1()
+//
+//      Indicamos vinculación a este programa.
+//
+//    programa2()
+//
+//      Indicamos vinculación a este programa.
+//
+////////////////////////////////////////////////////////////////////////////////
 
 int generaAleatorioEntero (int limite)
 {
@@ -462,10 +2554,7 @@ int generaAleatorioEntero (int limite)
 //
 //  PARÁMETROS DE ENTRADA:
 //
-//    nlineas
-//
-//      Variable entera que recibirá del exterior el número de líneas en blanco
-//      que se va a desplazar el cursor hacia abajo.
+//  Ninguno
 //
 //  VALOR DE SALIDA:
 //
@@ -491,12 +2580,122 @@ int obtenerEntero (void)
   return valor;
 }
 
+////////////////////////////////////////////////////////////////////////////////
+//
+//  FUNCIÓN:
+//
+//    int nombreFuncion (int param1, char param2)
+//
+//  USO:
+//
+//    Breve descripción de cómo se usa o para qué sirve.
+//
+//  DETALLES:
+//
+//    Consideraciones respecto al uso, datos manejados, o situaciones concretas,
+//    que se pueden detallar sobre el programa, tanto para uso por terceros como
+//    para cualquiera que tenga acceso al código.
+//
+//  PARÁMETROS DE ENTRADA:
+//
+//    param1
+//
+//      Variable del tipo que se indique, que corresponde a la información 1.
+//      Incorporar aquí aquellos detalles sobre posibles valores especiales.
+//
+//    param2
+//
+//      Variable del tipo que se indique, que corresponde a la información 2.
+//      Incorporar aquí aquellos detalles sobre posibles valores especiales.
+//
+//    NO RECIBE VALORES DE ENTRADA.
+//
+//      Especificar el texto anterior si la función no recibe valores de otros
+//      programas. Datos obtenidos del usuario se especificarán en los detalles.
+//
+//  VALOR DE SALIDA:
+//
+//    Devuelve al programa donde se invoque, un valor del tipo que se indique
+//    que representará algún concepto concreto a describir.
+//
+//    NO GENERA NINGÚN VALOR DE SALIDA.
+//
+//      Especificar el texto anterior si la función no calcula ningún valor para
+//      trasladarla a otros programas que la invoquen. Posibles datos generados
+//      por pantalla se especificarán en los detalles.
+//
+//  FUNCIONES DE LAS QUE DEPENDE:
+//
+//    programa1()
+//
+//      Indicamos vinculación a este programa.
+//
+//    programa2()
+//
+//      Indicamos vinculación a este programa.
+//
+////////////////////////////////////////////////////////////////////////////////
 
 char obtenerCaracterASCII()
 {
   return obtenerLetra();
 }
 
+////////////////////////////////////////////////////////////////////////////////
+//
+//  FUNCIÓN:
+//
+//    int nombreFuncion (int param1, char param2)
+//
+//  USO:
+//
+//    Breve descripción de cómo se usa o para qué sirve.
+//
+//  DETALLES:
+//
+//    Consideraciones respecto al uso, datos manejados, o situaciones concretas,
+//    que se pueden detallar sobre el programa, tanto para uso por terceros como
+//    para cualquiera que tenga acceso al código.
+//
+//  PARÁMETROS DE ENTRADA:
+//
+//    param1
+//
+//      Variable del tipo que se indique, que corresponde a la información 1.
+//      Incorporar aquí aquellos detalles sobre posibles valores especiales.
+//
+//    param2
+//
+//      Variable del tipo que se indique, que corresponde a la información 2.
+//      Incorporar aquí aquellos detalles sobre posibles valores especiales.
+//
+//    NO RECIBE VALORES DE ENTRADA.
+//
+//      Especificar el texto anterior si la función no recibe valores de otros
+//      programas. Datos obtenidos del usuario se especificarán en los detalles.
+//
+//  VALOR DE SALIDA:
+//
+//    Devuelve al programa donde se invoque, un valor del tipo que se indique
+//    que representará algún concepto concreto a describir.
+//
+//    NO GENERA NINGÚN VALOR DE SALIDA.
+//
+//      Especificar el texto anterior si la función no calcula ningún valor para
+//      trasladarla a otros programas que la invoquen. Posibles datos generados
+//      por pantalla se especificarán en los detalles.
+//
+//  FUNCIONES DE LAS QUE DEPENDE:
+//
+//    programa1()
+//
+//      Indicamos vinculación a este programa.
+//
+//    programa2()
+//
+//      Indicamos vinculación a este programa.
+//
+////////////////////////////////////////////////////////////////////////////////
 
 char obtenerLetra (void)   // Sólo ASCII VÁLIDO.
 {
@@ -578,6 +2777,61 @@ int pedirEntero (char msjtxt[], int ncols)
   return obtenerEntero();
 }
 
+////////////////////////////////////////////////////////////////////////////////
+//
+//  FUNCIÓN:
+//
+//    int nombreFuncion (int param1, char param2)
+//
+//  USO:
+//
+//    Breve descripción de cómo se usa o para qué sirve.
+//
+//  DETALLES:
+//
+//    Consideraciones respecto al uso, datos manejados, o situaciones concretas,
+//    que se pueden detallar sobre el programa, tanto para uso por terceros como
+//    para cualquiera que tenga acceso al código.
+//
+//  PARÁMETROS DE ENTRADA:
+//
+//    param1
+//
+//      Variable del tipo que se indique, que corresponde a la información 1.
+//      Incorporar aquí aquellos detalles sobre posibles valores especiales.
+//
+//    param2
+//
+//      Variable del tipo que se indique, que corresponde a la información 2.
+//      Incorporar aquí aquellos detalles sobre posibles valores especiales.
+//
+//    NO RECIBE VALORES DE ENTRADA.
+//
+//      Especificar el texto anterior si la función no recibe valores de otros
+//      programas. Datos obtenidos del usuario se especificarán en los detalles.
+//
+//  VALOR DE SALIDA:
+//
+//    Devuelve al programa donde se invoque, un valor del tipo que se indique
+//    que representará algún concepto concreto a describir.
+//
+//    NO GENERA NINGÚN VALOR DE SALIDA.
+//
+//      Especificar el texto anterior si la función no calcula ningún valor para
+//      trasladarla a otros programas que la invoquen. Posibles datos generados
+//      por pantalla se especificarán en los detalles.
+//
+//  FUNCIONES DE LAS QUE DEPENDE:
+//
+//    programa1()
+//
+//      Indicamos vinculación a este programa.
+//
+//    programa2()
+//
+//      Indicamos vinculación a este programa.
+//
+////////////////////////////////////////////////////////////////////////////////
 
 int pedirEnteroPositivo (char msjtxt[], int ncols, boolean mostrarerror)
 {
@@ -604,6 +2858,61 @@ int pedirEnteroPositivo (char msjtxt[], int ncols, boolean mostrarerror)
   return num;
 }
 
+////////////////////////////////////////////////////////////////////////////////
+//
+//  FUNCIÓN:
+//
+//    int nombreFuncion (int param1, char param2)
+//
+//  USO:
+//
+//    Breve descripción de cómo se usa o para qué sirve.
+//
+//  DETALLES:
+//
+//    Consideraciones respecto al uso, datos manejados, o situaciones concretas,
+//    que se pueden detallar sobre el programa, tanto para uso por terceros como
+//    para cualquiera que tenga acceso al código.
+//
+//  PARÁMETROS DE ENTRADA:
+//
+//    param1
+//
+//      Variable del tipo que se indique, que corresponde a la información 1.
+//      Incorporar aquí aquellos detalles sobre posibles valores especiales.
+//
+//    param2
+//
+//      Variable del tipo que se indique, que corresponde a la información 2.
+//      Incorporar aquí aquellos detalles sobre posibles valores especiales.
+//
+//    NO RECIBE VALORES DE ENTRADA.
+//
+//      Especificar el texto anterior si la función no recibe valores de otros
+//      programas. Datos obtenidos del usuario se especificarán en los detalles.
+//
+//  VALOR DE SALIDA:
+//
+//    Devuelve al programa donde se invoque, un valor del tipo que se indique
+//    que representará algún concepto concreto a describir.
+//
+//    NO GENERA NINGÚN VALOR DE SALIDA.
+//
+//      Especificar el texto anterior si la función no calcula ningún valor para
+//      trasladarla a otros programas que la invoquen. Posibles datos generados
+//      por pantalla se especificarán en los detalles.
+//
+//  FUNCIONES DE LAS QUE DEPENDE:
+//
+//    programa1()
+//
+//      Indicamos vinculación a este programa.
+//
+//    programa2()
+//
+//      Indicamos vinculación a este programa.
+//
+////////////////////////////////////////////////////////////////////////////////
 
 int pedirEnteroIntervalo (char msjtxt[], int ncols, boolean mostrarerror, int min, int max)
 {
@@ -631,6 +2940,61 @@ int pedirEnteroIntervalo (char msjtxt[], int ncols, boolean mostrarerror, int mi
   return num;
 }
 
+////////////////////////////////////////////////////////////////////////////////
+//
+//  FUNCIÓN:
+//
+//    int nombreFuncion (int param1, char param2)
+//
+//  USO:
+//
+//    Breve descripción de cómo se usa o para qué sirve.
+//
+//  DETALLES:
+//
+//    Consideraciones respecto al uso, datos manejados, o situaciones concretas,
+//    que se pueden detallar sobre el programa, tanto para uso por terceros como
+//    para cualquiera que tenga acceso al código.
+//
+//  PARÁMETROS DE ENTRADA:
+//
+//    param1
+//
+//      Variable del tipo que se indique, que corresponde a la información 1.
+//      Incorporar aquí aquellos detalles sobre posibles valores especiales.
+//
+//    param2
+//
+//      Variable del tipo que se indique, que corresponde a la información 2.
+//      Incorporar aquí aquellos detalles sobre posibles valores especiales.
+//
+//    NO RECIBE VALORES DE ENTRADA.
+//
+//      Especificar el texto anterior si la función no recibe valores de otros
+//      programas. Datos obtenidos del usuario se especificarán en los detalles.
+//
+//  VALOR DE SALIDA:
+//
+//    Devuelve al programa donde se invoque, un valor del tipo que se indique
+//    que representará algún concepto concreto a describir.
+//
+//    NO GENERA NINGÚN VALOR DE SALIDA.
+//
+//      Especificar el texto anterior si la función no calcula ningún valor para
+//      trasladarla a otros programas que la invoquen. Posibles datos generados
+//      por pantalla se especificarán en los detalles.
+//
+//  FUNCIONES DE LAS QUE DEPENDE:
+//
+//    programa1()
+//
+//      Indicamos vinculación a este programa.
+//
+//    programa2()
+//
+//      Indicamos vinculación a este programa.
+//
+////////////////////////////////////////////////////////////////////////////////
 
 int pedirLetra (char msjtxt[], int ncols, boolean mostrarerror, char letra)
 {
@@ -661,6 +3025,61 @@ int pedirLetra (char msjtxt[], int ncols, boolean mostrarerror, char letra)
   return pedida;
 }
 
+////////////////////////////////////////////////////////////////////////////////
+//
+//  FUNCIÓN:
+//
+//    int nombreFuncion (int param1, char param2)
+//
+//  USO:
+//
+//    Breve descripción de cómo se usa o para qué sirve.
+//
+//  DETALLES:
+//
+//    Consideraciones respecto al uso, datos manejados, o situaciones concretas,
+//    que se pueden detallar sobre el programa, tanto para uso por terceros como
+//    para cualquiera que tenga acceso al código.
+//
+//  PARÁMETROS DE ENTRADA:
+//
+//    param1
+//
+//      Variable del tipo que se indique, que corresponde a la información 1.
+//      Incorporar aquí aquellos detalles sobre posibles valores especiales.
+//
+//    param2
+//
+//      Variable del tipo que se indique, que corresponde a la información 2.
+//      Incorporar aquí aquellos detalles sobre posibles valores especiales.
+//
+//    NO RECIBE VALORES DE ENTRADA.
+//
+//      Especificar el texto anterior si la función no recibe valores de otros
+//      programas. Datos obtenidos del usuario se especificarán en los detalles.
+//
+//  VALOR DE SALIDA:
+//
+//    Devuelve al programa donde se invoque, un valor del tipo que se indique
+//    que representará algún concepto concreto a describir.
+//
+//    NO GENERA NINGÚN VALOR DE SALIDA.
+//
+//      Especificar el texto anterior si la función no calcula ningún valor para
+//      trasladarla a otros programas que la invoquen. Posibles datos generados
+//      por pantalla se especificarán en los detalles.
+//
+//  FUNCIONES DE LAS QUE DEPENDE:
+//
+//    programa1()
+//
+//      Indicamos vinculación a este programa.
+//
+//    programa2()
+//
+//      Indicamos vinculación a este programa.
+//
+////////////////////////////////////////////////////////////////////////////////
 
 int pedirConfirmacion (char msjtxt[], int ncols, boolean mostrarerror)
 {
@@ -689,6 +3108,61 @@ int pedirConfirmacion (char msjtxt[], int ncols, boolean mostrarerror)
   return letra;
 }
 
+////////////////////////////////////////////////////////////////////////////////
+//
+//  FUNCIÓN:
+//
+//    int nombreFuncion (int param1, char param2)
+//
+//  USO:
+//
+//    Breve descripción de cómo se usa o para qué sirve.
+//
+//  DETALLES:
+//
+//    Consideraciones respecto al uso, datos manejados, o situaciones concretas,
+//    que se pueden detallar sobre el programa, tanto para uso por terceros como
+//    para cualquiera que tenga acceso al código.
+//
+//  PARÁMETROS DE ENTRADA:
+//
+//    param1
+//
+//      Variable del tipo que se indique, que corresponde a la información 1.
+//      Incorporar aquí aquellos detalles sobre posibles valores especiales.
+//
+//    param2
+//
+//      Variable del tipo que se indique, que corresponde a la información 2.
+//      Incorporar aquí aquellos detalles sobre posibles valores especiales.
+//
+//    NO RECIBE VALORES DE ENTRADA.
+//
+//      Especificar el texto anterior si la función no recibe valores de otros
+//      programas. Datos obtenidos del usuario se especificarán en los detalles.
+//
+//  VALOR DE SALIDA:
+//
+//    Devuelve al programa donde se invoque, un valor del tipo que se indique
+//    que representará algún concepto concreto a describir.
+//
+//    NO GENERA NINGÚN VALOR DE SALIDA.
+//
+//      Especificar el texto anterior si la función no calcula ningún valor para
+//      trasladarla a otros programas que la invoquen. Posibles datos generados
+//      por pantalla se especificarán en los detalles.
+//
+//  FUNCIONES DE LAS QUE DEPENDE:
+//
+//    programa1()
+//
+//      Indicamos vinculación a este programa.
+//
+//    programa2()
+//
+//      Indicamos vinculación a este programa.
+//
+////////////////////////////////////////////////////////////////////////////////
 
 boolean validarLetraUnica (char original, char dada, boolean sensibleamayusculas)
 {
@@ -701,6 +3175,61 @@ boolean validarLetraUnica (char original, char dada, boolean sensibleamayusculas
   return (original == dada);
 }
 
+////////////////////////////////////////////////////////////////////////////////
+//
+//  FUNCIÓN:
+//
+//    int nombreFuncion (int param1, char param2)
+//
+//  USO:
+//
+//    Breve descripción de cómo se usa o para qué sirve.
+//
+//  DETALLES:
+//
+//    Consideraciones respecto al uso, datos manejados, o situaciones concretas,
+//    que se pueden detallar sobre el programa, tanto para uso por terceros como
+//    para cualquiera que tenga acceso al código.
+//
+//  PARÁMETROS DE ENTRADA:
+//
+//    param1
+//
+//      Variable del tipo que se indique, que corresponde a la información 1.
+//      Incorporar aquí aquellos detalles sobre posibles valores especiales.
+//
+//    param2
+//
+//      Variable del tipo que se indique, que corresponde a la información 2.
+//      Incorporar aquí aquellos detalles sobre posibles valores especiales.
+//
+//    NO RECIBE VALORES DE ENTRADA.
+//
+//      Especificar el texto anterior si la función no recibe valores de otros
+//      programas. Datos obtenidos del usuario se especificarán en los detalles.
+//
+//  VALOR DE SALIDA:
+//
+//    Devuelve al programa donde se invoque, un valor del tipo que se indique
+//    que representará algún concepto concreto a describir.
+//
+//    NO GENERA NINGÚN VALOR DE SALIDA.
+//
+//      Especificar el texto anterior si la función no calcula ningún valor para
+//      trasladarla a otros programas que la invoquen. Posibles datos generados
+//      por pantalla se especificarán en los detalles.
+//
+//  FUNCIONES DE LAS QUE DEPENDE:
+//
+//    programa1()
+//
+//      Indicamos vinculación a este programa.
+//
+//    programa2()
+//
+//      Indicamos vinculación a este programa.
+//
+////////////////////////////////////////////////////////////////////////////////
 
 boolean validarLetraConjunto (char letra, char seleccion[], boolean sensibleamayusculas)
 {
@@ -719,6 +3248,61 @@ boolean validarLetraConjunto (char letra, char seleccion[], boolean sensibleamay
   return resultado;
 }
 
+////////////////////////////////////////////////////////////////////////////////
+//
+//  FUNCIÓN:
+//
+//    int nombreFuncion (int param1, char param2)
+//
+//  USO:
+//
+//    Breve descripción de cómo se usa o para qué sirve.
+//
+//  DETALLES:
+//
+//    Consideraciones respecto al uso, datos manejados, o situaciones concretas,
+//    que se pueden detallar sobre el programa, tanto para uso por terceros como
+//    para cualquiera que tenga acceso al código.
+//
+//  PARÁMETROS DE ENTRADA:
+//
+//    param1
+//
+//      Variable del tipo que se indique, que corresponde a la información 1.
+//      Incorporar aquí aquellos detalles sobre posibles valores especiales.
+//
+//    param2
+//
+//      Variable del tipo que se indique, que corresponde a la información 2.
+//      Incorporar aquí aquellos detalles sobre posibles valores especiales.
+//
+//    NO RECIBE VALORES DE ENTRADA.
+//
+//      Especificar el texto anterior si la función no recibe valores de otros
+//      programas. Datos obtenidos del usuario se especificarán en los detalles.
+//
+//  VALOR DE SALIDA:
+//
+//    Devuelve al programa donde se invoque, un valor del tipo que se indique
+//    que representará algún concepto concreto a describir.
+//
+//    NO GENERA NINGÚN VALOR DE SALIDA.
+//
+//      Especificar el texto anterior si la función no calcula ningún valor para
+//      trasladarla a otros programas que la invoquen. Posibles datos generados
+//      por pantalla se especificarán en los detalles.
+//
+//  FUNCIONES DE LAS QUE DEPENDE:
+//
+//    programa1()
+//
+//      Indicamos vinculación a este programa.
+//
+//    programa2()
+//
+//      Indicamos vinculación a este programa.
+//
+////////////////////////////////////////////////////////////////////////////////
 
 char *cadenaOpcionesDisponibles (char entrada[])
 {
@@ -762,9 +3346,66 @@ char *cadenaOpcionesDisponibles (char entrada[])
     }
   }
 
+
+
   return textofinal;
 }
 
+////////////////////////////////////////////////////////////////////////////////
+//
+//  FUNCIÓN:
+//
+//    int nombreFuncion (int param1, char param2)
+//
+//  USO:
+//
+//    Breve descripción de cómo se usa o para qué sirve.
+//
+//  DETALLES:
+//
+//    Consideraciones respecto al uso, datos manejados, o situaciones concretas,
+//    que se pueden detallar sobre el programa, tanto para uso por terceros como
+//    para cualquiera que tenga acceso al código.
+//
+//  PARÁMETROS DE ENTRADA:
+//
+//    param1
+//
+//      Variable del tipo que se indique, que corresponde a la información 1.
+//      Incorporar aquí aquellos detalles sobre posibles valores especiales.
+//
+//    param2
+//
+//      Variable del tipo que se indique, que corresponde a la información 2.
+//      Incorporar aquí aquellos detalles sobre posibles valores especiales.
+//
+//    NO RECIBE VALORES DE ENTRADA.
+//
+//      Especificar el texto anterior si la función no recibe valores de otros
+//      programas. Datos obtenidos del usuario se especificarán en los detalles.
+//
+//  VALOR DE SALIDA:
+//
+//    Devuelve al programa donde se invoque, un valor del tipo que se indique
+//    que representará algún concepto concreto a describir.
+//
+//    NO GENERA NINGÚN VALOR DE SALIDA.
+//
+//      Especificar el texto anterior si la función no calcula ningún valor para
+//      trasladarla a otros programas que la invoquen. Posibles datos generados
+//      por pantalla se especificarán en los detalles.
+//
+//  FUNCIONES DE LAS QUE DEPENDE:
+//
+//    programa1()
+//
+//      Indicamos vinculación a este programa.
+//
+//    programa2()
+//
+//      Indicamos vinculación a este programa.
+//
+////////////////////////////////////////////////////////////////////////////////
 
 int pedirLetraSeleccion (char msjtxt[], int ncols, boolean mostrarerror, char seleccion[], boolean sensibleamayusculas)
 {
@@ -814,6 +3455,62 @@ int pedirLetraSeleccion (char msjtxt[], int ncols, boolean mostrarerror, char se
 
 #include <conio.h>
 
+////////////////////////////////////////////////////////////////////////////////
+//
+//  FUNCIÓN:
+//
+//    int nombreFuncion (int param1, char param2)
+//
+//  USO:
+//
+//    Breve descripción de cómo se usa o para qué sirve.
+//
+//  DETALLES:
+//
+//    Consideraciones respecto al uso, datos manejados, o situaciones concretas,
+//    que se pueden detallar sobre el programa, tanto para uso por terceros como
+//    para cualquiera que tenga acceso al código.
+//
+//  PARÁMETROS DE ENTRADA:
+//
+//    param1
+//
+//      Variable del tipo que se indique, que corresponde a la información 1.
+//      Incorporar aquí aquellos detalles sobre posibles valores especiales.
+//
+//    param2
+//
+//      Variable del tipo que se indique, que corresponde a la información 2.
+//      Incorporar aquí aquellos detalles sobre posibles valores especiales.
+//
+//    NO RECIBE VALORES DE ENTRADA.
+//
+//      Especificar el texto anterior si la función no recibe valores de otros
+//      programas. Datos obtenidos del usuario se especificarán en los detalles.
+//
+//  VALOR DE SALIDA:
+//
+//    Devuelve al programa donde se invoque, un valor del tipo que se indique
+//    que representará algún concepto concreto a describir.
+//
+//    NO GENERA NINGÚN VALOR DE SALIDA.
+//
+//      Especificar el texto anterior si la función no calcula ningún valor para
+//      trasladarla a otros programas que la invoquen. Posibles datos generados
+//      por pantalla se especificarán en los detalles.
+//
+//  FUNCIONES DE LAS QUE DEPENDE:
+//
+//    programa1()
+//
+//      Indicamos vinculación a este programa.
+//
+//    programa2()
+//
+//      Indicamos vinculación a este programa.
+//
+////////////////////////////////////////////////////////////////////////////////
+
 char obtenerTeclaInteractiva(void)
 {
   int caracter = _getch();   // En Windows, getch() ya es bloqueante por defecto.
@@ -850,6 +3547,62 @@ char obtenerTeclaInteractiva(void)
 #include <unistd.h>
 #include <fcntl.h>
 #include <stdio.h>
+
+////////////////////////////////////////////////////////////////////////////////
+//
+//  FUNCIÓN:
+//
+//    int nombreFuncion (int param1, char param2)
+//
+//  USO:
+//
+//    Breve descripción de cómo se usa o para qué sirve.
+//
+//  DETALLES:
+//
+//    Consideraciones respecto al uso, datos manejados, o situaciones concretas,
+//    que se pueden detallar sobre el programa, tanto para uso por terceros como
+//    para cualquiera que tenga acceso al código.
+//
+//  PARÁMETROS DE ENTRADA:
+//
+//    param1
+//
+//      Variable del tipo que se indique, que corresponde a la información 1.
+//      Incorporar aquí aquellos detalles sobre posibles valores especiales.
+//
+//    param2
+//
+//      Variable del tipo que se indique, que corresponde a la información 2.
+//      Incorporar aquí aquellos detalles sobre posibles valores especiales.
+//
+//    NO RECIBE VALORES DE ENTRADA.
+//
+//      Especificar el texto anterior si la función no recibe valores de otros
+//      programas. Datos obtenidos del usuario se especificarán en los detalles.
+//
+//  VALOR DE SALIDA:
+//
+//    Devuelve al programa donde se invoque, un valor del tipo que se indique
+//    que representará algún concepto concreto a describir.
+//
+//    NO GENERA NINGÚN VALOR DE SALIDA.
+//
+//      Especificar el texto anterior si la función no calcula ningún valor para
+//      trasladarla a otros programas que la invoquen. Posibles datos generados
+//      por pantalla se especificarán en los detalles.
+//
+//  FUNCIONES DE LAS QUE DEPENDE:
+//
+//    programa1()
+//
+//      Indicamos vinculación a este programa.
+//
+//    programa2()
+//
+//      Indicamos vinculación a este programa.
+//
+////////////////////////////////////////////////////////////////////////////////
 
 int obtenerTeclaInteractiva(void)
 {
